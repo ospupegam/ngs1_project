@@ -11,8 +11,6 @@ trimmomatic PE -threads 1 -phred33 -trimlog trimLogFile -summary statsSummaryFil
 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:1 SLIDINGWINDOW:5:5 MINLEN:36;done
 
 # aggresive trimming 
-
-# mild trimming for unshaffeld seq````````````
 for c in 1 2 3 4 5;do
 f3="$HOME/workdir/ngs_ass/out_shaffeld5/shuffled_SRR8797509_1.part_001.part_00$c.fastq"
 f4="$HOME/workdir/ngs_ass/out_shaffeld5/shuffled_SRR8797509_2.part_001.part_00$c.fastq"
