@@ -1,3 +1,6 @@
+cd ~/workdir/sample_data
+wget https://de.cyverse.org/dl/d/A9330898-FC54-42A5-B205-B1B2DC0E91AE/dog_chr5.fa.gz
+
 mkdir -p ~/workdir/ngs_ass/bwa_align/bwaIndex && cd ~/workdir/ngs_ass/bwa_align/bwaIndex
 ln -s ~/workdir/sample_data/dog_chr5.fa .
 bwa index -a bwtsw dog_chr5.fa
