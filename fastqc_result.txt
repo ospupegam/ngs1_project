@@ -1,0 +1,62 @@
+Measure	Value
+Filename	SRR8797509_1.part_001.part_001.fastq
+File type	Conventional base calls
+Encoding	Sanger / Illumina 1.9
+Total Sequences	1000000
+Sequences flagged as poor quality	0
+Sequence length	150
+%GC	51
+comment : sequence has good quality and good gc content and all pass except 'per base sequence content' that may be from error in first reads 
+from multifastqc report i can notice low duplication ration
+(two unique sequences have duplication ration greater than two shuffeled sequences 
+------------------------------------------------
+Measure	Value
+Filename	SRR8797509_2.part_001.part_001.fastq
+File type	Conventional base calls
+Encoding	Sanger / Illumina 1.9
+Total Sequences	1000000
+Sequences flagged as poor quality	0
+Sequence length	150
+%GC	51
+-------------------------------------------------------
+Measure	Value
+Filename	shuffled_SRR8797509_1.part_001.part_001.fastq
+File type	Conventional base calls
+Encoding	Sanger / Illumina 1.9
+Total Sequences	448775
+Sequences flagged as poor quality	0
+Sequence length	150
+%GC	51
+--------------------------------------------------
+Measure	Value
+Filename	shuffled_SRR8797509_2.part_001.part_002.fastq
+File type	Conventional base calls
+Encoding	Sanger / Illumina 1.9
+Total Sequences	431275
+Sequences flagged as poor quality	0
+Sequence length	150
+%GC	51
+-------------------------------------------------
+
+comment to all : sequence has good quality and good gc content and all pass except 'pe$
+from multifastqc report i can notice low duplication ration
+$sequences.
+Sample Name	% Dups	% GC	M Seqs
+SRR8797509_1.part_001.part_001	19.2%
+	51%
+	1.0
+SRR8797509_2.part_001.part_001	18.6%
+	51%
+	1.0
+shuffled_SRR8797509_1.part_001.part_001	13.2%
+	51%
+	0.4
+shuffled_SRR8797509_2.part_001.part_002	12.6%
+	51%
+	0.4
+
+and all sequences have quality score greater than 33 
+normal distribution of GC content.
+4 samples had less than 1% of reads made up of overrepresented sequences
+No samples found with any adapter contamination > 0.1%
+
